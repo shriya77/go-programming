@@ -10,6 +10,6 @@ type Vertex struct {
 func main() {
 	v := Vertex{1, 2}
 	p := &v
-	p.X = 1e9
+	p.Y = 2e9
 	fmt.Println(v)
 }
